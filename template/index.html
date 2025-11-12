@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Keerthana Gande — Portfolio</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Keerthana G.</a>
+      <nav class="nav">
+        <a href={{url_for('home')}}>Home</a>
+        <a href={{url_for('about')}}>About</a>
+        <a href={{url_for('projects')}}>Projects</a>
+        <a href={{url_for('contact')}} class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi — I'm Keerthana</h1>
+        <p>Student • Web developer • Problem solver. I build small web apps and learn new tech every week.</p>
+        <p class="actions">
+          <a class="cta" href="projects.html">See my work</a>
+          <a class="muted" href="about.html">Learn more</a>
+        </p>
+      </div>
+      <div class="hero-card">
+        <div class="avatar">KG</div>
+        <p class="bio">Nice to meet you! I enjoy building useful and playful web experiences.</p>
+      </div>
+    </div>
+  </main>
+
+  <section class="features container">
+    <article>
+      <h3>Web Apps</h3>
+      <p>Small full-stack projects with Flask, MongoDB, and vanilla JS.</p>
+    </article>
+    <article>
+      <h3>Data Structures</h3>
+      <p>C++ projects and algorithm practice — I love problem solving.</p>
+    </article>
+    <article>
+      <h3>Machine Learning</h3>
+      <p>Hands-on experiments with small models and TensorFlow / TFLite.</p>
+    </article>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Keerthana Gande — <a href="contact.html">Contact</a></p>
+    </div>
+  </footer>
+</body>
+</html>

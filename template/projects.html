@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Keerthana</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Keerthana G.</a>
+      <nav class="nav">
+        <a href={{url_for('home')}}>Home</a>
+        <a href={{url_for('about')}}>About</a>
+        <a href={{url_for('projects')}}>Projects</a>
+        <a href={{url_for('contact')}} class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h2>Selected Projects</h2>
+
+    <div class="cards">
+      <article class="card">
+        <h4>EcoWaste Classifier</h4>
+        <p>Web app that classifies household waste using a TFLite model. Built with TensorFlow.js and plain JS.</p>
+        <p class="small">HTML • JS • TensorFlow.js</p>
+      </article>
+
+      <article class="card">
+        <h4>CodeGenieSam (VS Code Extension)</h4>
+        <p>A small VS Code extension that sends code to a local FastAPI AI server for suggestions and completion.</p>
+        <p class="small">Python • FastAPI • VS Code</p>
+      </article>
+
+      <article class="card">
+        <h4>Student CRUD App</h4>
+        <p>Flask + MongoDB CRUD app for managing student records (forms + templates).</p>
+        <p class="small">Flask • MongoDB • HTML/CSS</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Keerthana Gande</p>
+    </div>
+  </footer>
+</body>
+</html>
